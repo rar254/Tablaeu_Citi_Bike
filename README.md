@@ -32,28 +32,18 @@ Your final project must be cohesive. The point of visualizations is telling a st
 
 You can also create your project for a different audience if you wish--Citibike Corporate for example.
 
-## REQUIREMENTS
-Your final submission must include:
+## Process
 
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
+Data: 
+  * Aggregated monthly csv files for CitiBike data for the years 2019 & 2020
+  * Used the groupby function to group the data by the Stationi name in order to analyze the average trip duration by Station and by month/year.
+    * Consolidated the data into a new csv file in order to prevent Tableau from crashing due to the high row count.
 
-  * 1 **City Official Map**:
-	  * **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top. OR
-	* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-		* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-  
-  * 2 Dashboards made from your visualizations
-  * 1 Story made from your dashboards and visualizations
-	* The Story must bring together the visualizations, requested maps, and dashboards.
-	* Do not make hard conclusions based on your visuals. Remember, correlation does not mean causation. You should propose possible reasons for trends and possible solutions to any problems these trends show.
-	* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
-
-* Your README must have your analysis on the phenomenons you uncovered from the data. You should include images of some of your visualizations.
-
-
+Visualization:
+  * I've created a map along with a heat visual in order to identify the concentration of ride(duration) by trip station.
+  * Once identified, I was able to create a visual that described the station's data/information
+  * A trend-line was used to display the increase and/or decrease in trip(duration)
+  * Lastly, once we identified if there was a spike and/or decrease I created a dashboard to identify what month in 2019 and 2020 had the greatest ride(duration) difference.
 
 
 ## Example questions
