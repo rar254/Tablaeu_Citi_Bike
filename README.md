@@ -50,84 +50,19 @@ Visualization:
   ![Citi-Bikes](Month-Share.png)
 
 
-## Example questions
-**These are simply examples THEY ARE NOT MANDATORY! Remember, whatever questions you choose must be part of an overall cohesive story**
+## Analysis
 
-* How many trips have been recorded total during the chosen period?
-
-* By what percentage has total ridership grown?
-
-* How has the proportion of short-term customers and annual subscribers changed?
-
-* What are the peak hours in which bikes are used during summer months?
-
-* What are the peak hours in which bikes are used during winter months?
-
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-* Today, what is the gender breakdown of active participants (Male v. Female)?
-
-* How effective has gender outreach been in increasing female ridership over the timespan?
-
-* How does the average trip duration change by age?
-
-* What is the average distance in miles that a bike is ridden?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
+   *I was a little surpised to see that the length of ride(duration) for the top 10 Bike Stations had increased overall from 2019 to 2020.
+   *When taking a further look you notice that in fact the top 10 starting ride stations are almost all either located at some sort of hospital OR nearby to.
+   * It is not clear why this happened however, one might suggest that the reason for the spike is correlated to the recent deadly pandemic the world is facing
+   * From this information we can interpret that transportation to and from(or close to) Hospitals is very key!!! 
+   * When looking at the last visualization we notice a HUGE spike in trip duration for the Union St. station for the months of November and December of 2020, but why?
+   * Sometime around mid to late last year the Mayor of Hoboken and Jersey citi annouced the two city partnership that would grant CitiBike the capacity to provide bike sharing bikes to and from the cities.
+   * This only solidifies the suggestion that CitiBike executives should continue to focus their expansion of bike stations that are located at or near hospital and or health(subsidaries).
+   * In addition to, CitiBike should continue their focus on expanding partnerships from big cities like hoboken and jersey city in order to increase the likeliness of having longer trip durations.
 
 
-## Considerations
-
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
 
 
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Attraction
 
 
-## Hints
-
-* You may need to get creative in how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works and just go with it.
-
-* Don't just assume the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can blockade your analysis. Ensure your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).
-
-* Consider building your visualizations with small extracts of the data (i.e. single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time-course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't "answer" anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their need-to-know and the importance of not "cramming in everything". Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual story-telling. The Citi Bike program has a clear visual footprint. As a suggestion, look for ways to have your data visualizations match their aesthetic tones.
-
-* Pay attention to labels. What exactly is "time duration"? What's the value of "age of birth"? You will almost certainly need calculated fields to get what you need.
-
-* Keep a close eye for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information on socioeconomic or other geographic data. Tableau has a map "layer" feature that you may find handy.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered all that you need -- so you will need to keep an eye out for new tricks.
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
-
-* Good luck!
-
-### Copyright
-
-Data Boot Camp © 2019. All Rights Reserved.
