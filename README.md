@@ -41,6 +41,7 @@ Data:
 
 Visualization:
   * I've created a map along with a heat visual in order to identify the concentration of ride(duration) by trip station.
+  ![Citi-Bikes](MAPS.png)
   * Once identified, I was able to create a visual that described the station's data/information
   * A trend-line was used to display the increase and/or decrease in trip(duration)
   * Lastly, once we identified if there was a spike and/or decrease I created a dashboard to identify what month in 2019 and 2020 had the greatest ride(duration) difference.
